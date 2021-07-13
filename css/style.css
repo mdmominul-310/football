@@ -2,18 +2,133 @@
         fonts and utilites
  --------------------*/
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ *{
+     margin:0px
+ }
  body{
     font-family: 'Poppins', sans-serif;
 
  }
+
  /* -------------------
-    header styes 
+   banner styes 
  ---------------------- */
- .head-container{
-     background-color: blue;
-     width:100%;
+
+ .full-width{
+    width:100%;
+    background-color: darkblue;
+}
+
+ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
- .left-head h1{
+ .container-wrapper{
+     width:1050px;
+ }
+ .banner-wrapper{
+     display: flex;
+     padding: 50px 0px 50px 0px;
+ 
+ }
+ .right-banner{
+    margin-right: 20px;
+ }
+
+ .right-banner img{
+    width: 100%;
+ }
+ .half-width{
+    width:50%;
+ }
+ .left-banner h1{
     font-size: 64px;
     color:#ffff;
+    font-weight: 700px;
  }
+.button-style{
+    text-decoration: none;
+    color:#fff;
+    background-color: #E02C6D;
+    padding:10px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition:0.3s all ease;
+}
+.fa-long-arrow-alt-right{
+    margin-left: 5px;
+}
+.button-style:hover{
+    background-color: darkred;
+    font-size: 20px;
+}
+/* players styles  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px 30px;
+    margin-top: 70px;
+}
+.player{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-name{
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight: bold;
+    color:#18191F;
+}
+.player img{
+    width:100%;
+}
+.player-des{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* footer styles  */
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 63px;
+}
+.logo-content img{
+    width:483px;
+    height:110px;
+}
+.social-style{
+    font-size: 17px;
+    color: #969BAB;
+}
+.copy-text p{
+    font-size: 16px;
+}
+
+/* media query  */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+.container-wrapper{
+    width:100%;
+}
+    .banner-wrapper{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .half-width{
+        width: 100%;
+    }
+    .right-banner{
+        margin-top: 50px;
+    }
+    .button-style{
+        line-height: 50px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+ 
+  }
