@@ -4,4 +4,16 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
  body{
     font-family: 'Poppins', sans-serif;
+
+ }
+ /* -------------------
+    header styes 
+ ---------------------- */
+ .head-container{
+     background-color: blue;
+     width:100%;
+ }
+ .left-head h1{
+    font-size: 64px;
+    color:#ffff;
  }
