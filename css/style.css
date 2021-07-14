@@ -9,7 +9,9 @@
     font-family: 'Poppins', sans-serif;
 
  }
- /* navigation bar styles  */
+ /* ---------------------
+    navigation bar styles
+ ----------------------  */
  .navigation-bar{
      display: flex;
      justify-content: space-between;
@@ -86,7 +88,9 @@
     background-color: darkred;
     font-size: 20px;
 }
-/* players styles  */
+/*---------------------
+    players styles  
+-----------------------*/
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -113,7 +117,9 @@
 }
 
 
-/* final match styles  */
+/*------------------
+ final match styles  
+ -------------------*/
 .final-match-live-main{
     display: flex;
     margin-top: 150px;
@@ -135,7 +141,9 @@
     font-size: 48px;
 }
 
-/* trending styles  */
+/*---------------------- 
+trending styles  
+------------------------*/
 .title-bar{
     width:100%;
     background-color: orangered;
@@ -168,7 +176,9 @@
 .trending-left img{
     width:100%;
 }
-/* photo album styles  */
+/*-------------------------
+     photo album styles  
+----------------------------*/
 .photo-album{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
@@ -183,7 +193,9 @@
 }
 
 
-/* footer styles  */
+/*------------------
+     footer styles  
+---------------------*/
 footer{
     display: flex;
     flex-direction:column;
@@ -203,9 +215,13 @@ footer{
     font-size: 16px;
 }
 
-/* media query  */
+/* -----------------
+    media query  
+---------------------*/
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+/*----------------------
+     For mobile phones: 
+-------------------------------*/
 .invisible{
     display: block
 }
@@ -255,3 +271,6 @@ footer{
         margin-left: 10px;
     }
   }
+/*--------------------
+    styles end  
+-----------------------*/
