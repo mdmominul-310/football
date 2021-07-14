@@ -225,14 +225,14 @@ trending styles
 .invisible{
     display: block
 }
-    .spcial-menu-bar{
+ .spcial-menu-bar{
     font-size: 24px;
     color:cornsilk;
 }
-.navigation-bar{
+ .navigation-bar{
     margin:20px;
 }
-.navigation-bar ul{
+ .navigation-bar ul{
     display: none;
 }
 .container-wrapper{
@@ -278,6 +278,7 @@ trending styles
         height:100%;
        
     }
+
   }
 /*--------------------
     styles end  
