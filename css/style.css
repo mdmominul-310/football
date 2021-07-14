@@ -127,6 +127,7 @@
     width:100%;
 }
 .final-live-des p{
+    text-align: justify;
     margin-bottom: 20px;
 }
 .final-live-des h1{
