@@ -244,7 +244,7 @@ footer{
     }
     .trending{
         flex-direction: column;
-        margin: 10px;
+        margin: 10pxg;
     }
     .photo-album{
         grid-template-columns: repeat(1, 1fr);
