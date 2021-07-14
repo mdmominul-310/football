@@ -9,6 +9,29 @@
     font-family: 'Poppins', sans-serif;
 
  }
+ /* navigation bar styles  */
+ .navigation-bar{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 70px;
+ }
+ .left-nav-bar ul{
+     display: flex;
+ }
+ .left-nav-bar ul li{
+     list-style: none;
+     margin-right: 20px;
+ }
+ .left-nav-bar ul li a{
+     text-decoration: none;
+     color:#FFFF;
+     font-weight: 500px;
+     font-size: 16px;
+ }
+ .spcial-menu-bar{
+     display: none;
+ }
+
 
  /* -------------------
    banner styes 
@@ -111,6 +134,17 @@ footer{
 /* media query  */
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+.spcial-menu-bar{
+    display: block;
+    font-size: 24px;
+    color:cornsilk;
+}
+.navigation-bar{
+    margin:20px;
+}
+.navigation-bar ul{
+    display: none;
+}
 .container-wrapper{
     width:100%;
 }
