@@ -196,7 +196,7 @@ trending styles
 /*------------------
      footer styles  
 ---------------------*/
-footer{
+.footer-content{
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -248,6 +248,9 @@ footer{
     .right-banner{
         margin-top: 50px;
     }
+    .left-banner h1{
+        font-size: 36px;
+    }
     .button-style{
         line-height: 50px;
     }
@@ -269,6 +272,11 @@ footer{
     .photo-album{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 10px;
+    }
+    .logo-content img{
+        width:80%;
+        height:100%;
+       
     }
   }
 /*--------------------
