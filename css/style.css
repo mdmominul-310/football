@@ -110,6 +110,9 @@
     margin-top: 10px;
     font-size: 16px;
 }
+.player-des p{
+    text-align: justify;
+}
 
 /* final match styles  */
 .final-match-live-main{
@@ -160,6 +163,7 @@
 }
 .trending-right p{
     font-size: 16px;
+    text-align: justify;
 }
 .trending-left img{
     width:100%;
